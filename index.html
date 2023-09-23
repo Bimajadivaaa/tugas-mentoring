@@ -8,25 +8,33 @@
   </head>
   <body>
     <h1>Form Kalkulator</h1>
-    <fieldset style="margin: 10px; width: 500px; height: 300px">
+    <fieldset style="margin: 10px; width: 500px; height: 380px">
       <legend>Kalkulator keren</legend>
       <form>
         <h2>Input Kalkulator</h2>
-        <label>Masukkan angka pertama :</label>
-        <input type="text" placeholder="Masukkan disini"/>
+        <label for="angka1">Masukkan angka pertama :</label>
+        <input type="text" id="angka1" placeholder="Masukkan disini"/>
         <br />
         <br />
-        <label>Masukkan angka kedua :</label>
-        <input type="text" placeholder="Masukkan disini" />
+        <label for="angka2">Masukkan angka kedua :</label>
+        <input type="text" id="angka2" placeholder="Masukkan disini" />
         <br />
         <br />
-        <button>Tambah</button>
-        <button>Kurang</button>
-        <button>Kali</button>
-        <button>Bagi</button>
-        <br />
-        <br />
-        <button>Hitung</button>
+        <label for="operator">Operator :</label>
+        <select id="operator">
+          <option value="tambah">Tambah</option>
+          <option value="kurang">Kurang</option>
+          <option value="kali">Kali</option>
+          <option value="bagi">Bagi</option>
+        </select>
+        <br>
+        <br>
+        <label for="hitung">Hitung :</label>
+        <button type="button" onclick="hitung()">Hitung</button>
+        <br>
+        <br>
+        <label for="hasil">Hasil :</label>
+        <input type="text" id="hasil" readonly>
       </form>
     </fieldset>
     <script src="script.js"></script>

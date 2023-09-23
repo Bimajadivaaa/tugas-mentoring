@@ -1,24 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
-fieldset{
-    background-color: rgb(127, 208, 255);
-    border-radius: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+fieldset {
+  background-color: rgb(127, 208, 255);
+  border-radius: 10px;
 }
-input{
-    border: 1 black;
-    padding: 7px;
-    background-color: aliceblue;
-    border-radius: 10px;
+input {
+  border: 1 black;
+  padding: 7px;
+  background-color: aliceblue;
+  border-radius: 10px;
 }
 
 button {
-    border: 1 black;
-    padding: 7px;
-    background-color: rgb(242, 143, 4);
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 500;
+  border: 1 black;
+  padding: 7px;
+  background-color: rgb(242, 143, 4);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-body{
-    font-family: "Poppins", sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+select {
+    border: 1 black;
+  padding: 7px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
