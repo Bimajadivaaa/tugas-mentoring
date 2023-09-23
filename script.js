@@ -1,9 +1,9 @@
 function hitung() {
-  var angkaPertama = parseFloat(document.getElementById("angka1").value);
-  var angkaKedua = parseFloat(document.getElementById("angka2").value);
+  let angkaPertama = parseFloat(document.getElementById("angka1").value);
+  let angkaKedua = parseFloat(document.getElementById("angka2").value);
 
-  var operator = document.getElementById("operator").value;
-  var hasil;
+  let operator = document.getElementById("operator").value;
+  let hasil;
 
   if (operator == "tambah") {
     hasil = angkaPertama + angkaKedua;
@@ -14,6 +14,5 @@ function hitung() {
   } else {
     hasil = angkaPertama / angkaKedua;
   }
-
   document.getElementById("hasil").value = hasil;
 }
