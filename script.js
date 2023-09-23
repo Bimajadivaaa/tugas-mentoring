@@ -11,7 +11,7 @@ function hitung() {
     hasil = angkaPertama - angkaKedua;
   } else if (operator == "kali") {
     hasil = angkaPertama * angkaKedua;
-  } else if (operator == "bagi") {
+  } else {
     hasil = angkaPertama / angkaKedua;
   }
 
